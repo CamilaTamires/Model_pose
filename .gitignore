@@ -1,0 +1,52 @@
+# ===========================================
+# 🔹 NODE / JAVASCRIPT
+# ===========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+dist/
+build/
+
+# ===========================================
+# 🔹 PYTHON
+# ===========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.env/
+.env.*
+.venv/
+venv/
+env/
+.Python
+.pytest_cache/
+coverage/
+*.log
+
+# ===========================================
+# 🔹 MODELOS / PESOS / DADOS PESADOS
+# ===========================================
+*.onnx
+*.pt
+*.pth
+*.h5
+*.weights
+*.tflite
+*.ckpt
+*.npz
+*.npy
+
+# ===========================================
+# 🔹 SISTEMA / EDITORES
+# ===========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
